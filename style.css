@@ -1,0 +1,89 @@
+.house{ 
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 34px;
+}
+
+button{
+        padding: 10px;
+        margin: 10px;
+        border: none;
+        color: white;
+    }
+   
+#add, .cond button{
+    background-color: teal;
+}
+
+#acc, .cand button{
+    background-color: #b50088;
+}
+
+#abb, .cund button{
+    background-color: #1200b5;
+}
+
+input{
+    background-color: rgb(227, 255, 71);
+    text-align: center;
+    color: black;
+}
+
+.vkl{
+    color: rgb(228, 9, 57);
+    margin: 5px;
+}
+
+.nul{
+    color: coral;
+    margin: 5px;
+}
+
+.warm{
+    color: red;
+    margin: 5px;
+}
+
+.cold {
+    color: blue;
+    margin: 5px;
+}
+
+.res{
+    color: rgb(77, 8, 8);
+}
+
+#root{
+        width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+#root div{
+    margin: 10px;
+    text-align: center;
+}
+
+#root div div{
+    text-align: left;
+    display: block;
+}
+
+.cond{
+    border: 3px solid teal;
+    width: 30%;
+}
+
+.cand{
+    border: 3px solid #b50088;
+    width: 30%;
+}
+
+.cund{
+    border: 3px solid #1200b5;
+    width: 30%;
+}
